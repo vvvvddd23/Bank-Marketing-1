@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 import streamlit as st
 
 # 1. Încărcarea setului de date
-file_path = r'D:\pyton\laborator2\bankMarketing1\bank\bank-full.csv'
+file_path = r'D:\pyton\laborator3\bankMarketing1\bank\bank-full.csv'
 data = pd.read_csv(file_path, sep=';')
 
 # 2. Preprocesarea datelor
